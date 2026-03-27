@@ -1,0 +1,28 @@
+<svg viewBox="0 0 500 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="БауМастер">
+
+  <!-- ===== SYMBOL ===== -->
+
+  <!-- Red left piece: chimney + left roof slope -->
+  <polygon points="118,178 118,22 162,22 162,108 244,50 244,178" fill="#EE3333"/>
+
+  <!-- Red diamond -->
+  <polygon points="244,50 302,108 244,166 186,108" fill="#EE3333"/>
+
+  <!-- Light gray right triangle (visible on dark bg) -->
+  <polygon points="302,108 374,178 244,166" fill="rgba(255,255,255,0.55)"/>
+
+  <!-- ===== TEXT ===== -->
+
+  <!-- "bau" white + "master" red -->
+  <text y="228" text-anchor="middle" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="48" x="246">
+    <tspan fill="rgba(255,255,255,0.92)" font-weight="400" letter-spacing="-0.5">bau</tspan><tspan fill="#FF4444" font-weight="700" letter-spacing="-0.5">master</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="246" y="258" text-anchor="middle"
+        font-family="'Arial', 'Helvetica Neue', sans-serif"
+        font-size="13" fill="rgba(255,255,255,0.45)" letter-spacing="3.5" font-weight="400">
+    СТРОИТЕЛЬНАЯ КОМПАНИЯ
+  </text>
+
+</svg>
