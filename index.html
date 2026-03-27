@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>БауМастер — Кровельные материалы, Санкт-Петербург</title>
+  <meta name="description" content="БауМастер — широкий выбор кровельных материалов и услуг в Санкт-Петербурге. Tegola, BRAAS, Rockwool, Fakro и другие бренды.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="shortcut icon" href="/img/icon.ico">
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="header-inner">
+
+    <a href="/" class="site-logo">
+      <img src="/img/logo-header.svg" alt="БауМастер">
+    </a>
+
+    <nav class="site-nav" id="siteNav">
+
+      <div class="nav-item">
+        <a href="/" class="nav-link active">Главная</a>
+      </div>
+
+      <!-- Каталог -->
+      <div class="nav-item">
+        <span class="nav-link">
+          Каталог
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
+        </span>
+        <div class="dropdown">
+          <div class="dropdown-section">Кровля</div>
+          <div style="padding:0 4px;font-size:11px;color:var(--text-light);padding:2px 10px 4px;font-weight:600;">Битумная черепица</div>
+          <a href="#"><span class="dot"></span>Tegola</a>
+          <a href="#"><span class="dot"></span>CertainTeed</a>
+          <div style="padding:2px 10px 4px;font-size:11px;color:var(--text-light);font-weight:600;margin-top:4px;">Керамическая черепица</div>
+          <a href="#"><span class="dot"></span>BRAAS</a>
+          <a href="#"><span class="dot"></span>Roben</a>
+          <a href="#"><span class="dot"></span>Jacobi</a>
+          <a href="#"><span class="dot"></span>Tondach</a>
+          <div style="padding:2px 10px 4px;font-size:11px;color:var(--text-light);font-weight:600;margin-top:4px;">Металлочерепица</div>
+          <a href="#"><span class="dot"></span>Saimaa</a>
+          <div style="padding:2px 10px 4px;font-size:11px;color:var(--text-light);font-weight:600;margin-top:4px;">Природная кровля</div>
+          <a href="#"><span class="dot"></span>Сланец</a>
+          <a href="#"><span class="dot"></span>Дранка</a>
+          <hr>
+          <div class="dropdown-section">Аксессуары</div>
+          <a href="#"><span class="dot"></span>DORKEN (плёнки)</a>
+          <a href="#"><span class="dot"></span>Tyvek</a>
+          <a href="#"><span class="dot"></span>Fakro (плёнки)</a>
+          <a href="#"><span class="dot"></span>Свес</a>
+          <a href="#"><span class="dot"></span>Снегозадержание</a>
+          <a href="#"><span class="dot"></span>Фасонные элементы</a>
+          <hr>
+          <div class="dropdown-section">Материалы и системы</div>
+          <a href="#"><span class="dot"></span>Rockwool</a>
+          <a href="#"><span class="dot"></span>Paroc</a>
+          <a href="#"><span class="dot"></span>Эковата</a>
+          <a href="#"><span class="dot"></span>Аквасистем</a>
+          <a href="#"><span class="dot"></span>Fakro (окна)</a>
+          <a href="#"><span class="dot"></span>ABC-Klinkergruppe</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="#" class="nav-link">Услуги</a>
+      </div>
+
+      <div class="nav-item">
+        <a href="#" class="nav-link">Прайс</a>
+      </div>
+
+      <div class="nav-item">
+        <a href="#" class="nav-link">Контакты</a>
+      </div>
+
+      <div class="nav-item">
+        <a href="/calculator/" class="nav-link nav-calc">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="12" y2="18"/></svg>
+          Калькулятор PIPE
+        </a>
+      </div>
+
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Меню" onclick="document.getElementById('siteNav').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</header>
+
+<!-- ========== CONTENT ========== -->
+<main class="page-wrap">
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-content">
+    <span class="hero-badge">🏠 Санкт-Петербург — с 2000 года</span>
+    <h1>Кровельные материалы от&nbsp;ведущих мировых производителей</h1>
+    <p>Широкий ассортимент черепицы, теплоизоляции, водосточных систем и аксессуаров. Профессиональная консультация и доставка по Петербургу.</p>
+    <div class="hero-actions">
+      <a href="#catalog" class="btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        Смотреть каталог
+      </a>
+      <a href="#contacts" class="btn-ghost">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+        Связаться с нами
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<div class="features-grid">
+  <div class="feature-card">
+    <div class="feature-icon">🏆</div>
+    <h3>Оригинальная продукция</h3>
+    <p>Официальные поставки от Tegola, BRAAS, Rockwool, Fakro и других лидеров рынка</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">🚚</div>
+    <h3>Доставка и самовывоз</h3>
+    <p>Доставка по Санкт-Петербургу и Ленинградской области, удобный самовывоз с выставки</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">💬</div>
+    <h3>Консультация эксперта</h3>
+    <p>Подберём материалы под ваш проект, рассчитаем необходимое количество</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">🛠️</div>
+    <h3>Монтаж под ключ</h3>
+    <p>Профессиональная укладка кровельных покрытий любой сложности</p>
+  </div>
+</div>
+
+<!-- CATALOG OVERVIEW -->
+<h2 class="section-title" id="catalog">Категории товаров</h2>
+<p class="section-sub">Более 20 ведущих брендов в одном месте</p>
+
+<div class="cat-grid">
+  <a href="#" class="cat-card">
+    <div class="cat-icon">🏠</div>
+    <h4>Битумная черепица</h4>
+    <p>Tegola, CertainTeed</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">🏛️</div>
+    <h4>Керамическая</h4>
+    <p>BRAAS, Roben, Jacobi, Tondach</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">🔩</div>
+    <h4>Металлочерепица</h4>
+    <p>Saimaa</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">🪨</div>
+    <h4>Природная кровля</h4>
+    <p>Сланец, дранка</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">🧱</div>
+    <h4>Теплоизоляция</h4>
+    <p>Rockwool, Paroc, Эковата</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">💧</div>
+    <h4>Водосток</h4>
+    <p>Аквасистем</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">🪟</div>
+    <h4>Мансардные окна</h4>
+    <p>Fakro</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">📋</div>
+    <h4>Плёнки и мембраны</h4>
+    <p>DORKEN, Tyvek</p>
+  </a>
+  <a href="#" class="cat-card">
+    <div class="cat-icon">🧱</div>
+    <h4>Термопанели</h4>
+    <p>ABC-Klinkergruppe</p>
+  </a>
+</div>
+
+<!-- CTA CALC -->
+<div style="background:linear-gradient(135deg,hsl(38,72%,46%),hsl(38,80%,56%));border-radius:16px;padding:36px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;box-shadow:0 8px 32px rgba(180,110,0,.25);margin-top:8px;">
+  <div>
+    <h3 style="font-family:'Playfair Display',serif;font-size:22px;color:#fff;margin-bottom:6px;">Калькулятор системы PIPE</h3>
+    <p style="color:rgba(255,255,255,.8);font-size:14px;">Рассчитайте стоимость колпаков, коробов и окладов за&nbsp;минуту</p>
+  </div>
+  <a href="/calculator/" style="display:inline-flex;align-items:center;gap:8px;background:#fff;color:hsl(38,72%,40%);padding:13px 28px;border-radius:40px;font-weight:700;font-size:14px;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,.15);transition:transform .2s;">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="16" y2="14"/></svg>
+    Открыть калькулятор
+  </a>
+</div>
+
+<!-- CONTACTS -->
+<div id="contacts" style="margin-top:48px;padding:36px 40px;background:var(--bg-alt,#f8f6f2);border-radius:16px;">
+  <h2 class="section-title" style="margin-top:0;">Контакты</h2>
+  <p><strong>ООО «БауМастер»</strong></p>
+  <p>г. Санкт-Петербург, Выборгское шоссе, 212</p>
+  <p>Выставка «Коттеджи в Озерках», павильон 9с</p>
+  <p style="margin-top:12px;"><a href="tel:+78123132003">+7 (812) 313-20-03</a></p>
+  <p><a href="mailto:baumasterspb@mail.ru">baumasterspb@mail.ru</a></p>
+</div>
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="name">ООО «БауМастер»</div>
+      <div>г. Санкт-Петербург, Выборгское шоссе, 212</div>
+      <div>Выставка «Коттеджи в Озерках», павильон 9с</div>
+    </div>
+    <div class="footer-info">
+      <div><a href="tel:+78123132003">+7 (812) 313-20-03</a></div>
+      <div><a href="mailto:baumasterspb@mail.ru">baumasterspb@mail.ru</a></div>
+      <div style="margin-top:8px;font-size:12px;opacity:.5;">© 2025 БауМастер</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
