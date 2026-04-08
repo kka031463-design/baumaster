@@ -1,6 +1,6 @@
 <iframe
   src="/calculator/index.html"
-  title="Калькулятор системы PIPE"
+  title="Калькулятор коммерческих предложений"
   id="calc-frame"
   scrolling="yes"
   allowfullscreen

@@ -96,7 +96,7 @@
 <!-- CTA CALC -->
 <div style="background:linear-gradient(135deg,hsl(38,72%,46%),hsl(38,80%,56%));border-radius:16px;padding:36px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;box-shadow:0 8px 32px rgba(180,110,0,.25);margin-top:8px;">
   <div>
-    <h3 style="font-family:'Playfair Display',serif;font-size:22px;color:#fff;margin-bottom:6px;">Калькулятор системы PIPE</h3>
+    <h3 style="font-family:'Playfair Display',serif;font-size:22px;color:#fff;margin-bottom:6px;">Калькулятор коммерческих предложений</h3>
     <p style="color:rgba(255,255,255,.8);font-size:14px;">Рассчитайте стоимость колпаков, коробов и окладов за&nbsp;минуту</p>
   </div>
   <a href="index.php?action=calculator" style="display:inline-flex;align-items:center;gap:8px;background:#fff;color:hsl(38,72%,40%);padding:13px 28px;border-radius:40px;font-weight:700;font-size:14px;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,.15);transition:transform .2s;">

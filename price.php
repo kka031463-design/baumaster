@@ -4,7 +4,7 @@
 </div>
 <div class="price-notice">
   <span style="font-size:18px;">ℹ️</span>
-  <span>Цены носят ознакомительный характер и могут меняться в зависимости от наличия и объёма заказа. Для получения точного расчёта свяжитесь с нами по телефону или воспользуйтесь <a href="index.php?action=calculator" style="color:var(--red-mid);text-decoration:underline;">калькулятором PIPE</a>.</span>
+  <span>Цены носят ознакомительный характер и могут меняться в зависимости от наличия и объёма заказа. Для получения точного расчёта свяжитесь с нами по телефону или воспользуйтесь <a href="index.php?action=calculator" style="color:var(--red-mid);text-decoration:underline;">калькулятором коммерческих предложений</a>.</span>
 </div>
 <div class="card">
   <table style="width:100%;border-collapse:collapse;font-size:14px;">
